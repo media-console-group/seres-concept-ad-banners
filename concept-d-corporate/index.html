@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="robots" content="noindex,nofollow">
+<meta charset="UTF-8">
+<meta name="ad.size" content="width=300,height=600">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=300,initial-scale=1">
+<link rel="icon" href="data:,">
+<title>Seres Therapeutics, Inc. — Investor Relations</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&amp;family=Roboto+Condensed:wght@500;600&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!--
+  Seres Therapeutics, Inc. — IR display banner, 300x600 — Concept D: Corporate site / brand-native.
+  Promotes: https://seres-ir-concept.pages.dev/
+  Styled from the company's own CORPORATE website (https://www.serestherapeutics.com/), not the IR
+  landing page that Concepts A-C are built from: its dark header + white logo
+  lockup, heading/body fonts, palette, accent underline bars, button style
+  and footer strip. "Homepage in miniature": each slide is one module of the
+  corporate homepage, alternating photo and light grounds. Seres build: four arrangements of the homepage tile mosaic (photo, sky / mid / deep blue and dark panel tiles).
+  Module classes (m-hero / m-stats / m-split / m-band) and the shared parts
+  (d-stat, d-list, d-arrows) live in style.css; every colour is a :root token
+  filled from brand.json "corp". Re-module a slide if the site has no such
+  module. Photos are the site's own photography, cropped into assets/;
+  assets/logo.svg is the site's own logo file. Every claim comes from the
+  project fact sheet (.tmp/facts.md).
+-->
+
+<div id="banner" aria-label="Seres Therapeutics, Inc. investor relations advertisement">
+
+  <div id="slides">
+
+    <!-- Slide 1: Overview -->
+    <section class="slide" data-index="0">
+      <!-- Module: homepage mosaic: the "About Us" photo tile over the dark intro panel ("Realizing the possibilities
+           within" + rule + mission copy). Facts: facts.md matrix 1 (Q3 release About: VOWST). -->
+      <div class="tile photo" style="left:0;top:0;width:300px;height:204px">
+        <img class="d-photo" src="assets/slide-1.jpg" alt="Illustrative image from the company's website: a woman outdoors in a teal jacket">
+        <span class="t-cap">Illustrative image</span>
+      </div>
+      <div class="tile dark panel" style="left:0;top:208px;width:300px;height:234px">
+        <h2>Live biotherapeutics for medically vulnerable patients</h2>
+        <div class="t-rule"></div>
+        <p>Seres led the development and FDA approval of VOWST, the first orally administered microbiome therapeutic, later sold to Nestl&eacute; Health Science.</p>
+      </div>
+    </section>
+
+    <!-- Slide 2: irEC data -->
+    <section class="slide" data-index="1">
+      <!-- Module: homepage mosaic: the "Our Programs" photo tile above a mid-blue and a deep-blue tile, dark panel
+           below. Facts: Q3 release (Nov 4, 2026): IST 12/15, 5/15, safety; Jul 2026 top-line. -->
+      <div class="tile photo" style="left:0;top:0;width:300px;height:168px">
+        <img class="d-photo" src="assets/slide-2.jpg" alt="Image from the company's website: capsules in a blue-lit laboratory drum">
+        <span class="t-label">SER-155 &middot; irEC</span>
+      </div>
+      <div class="tile mid" style="left:0;top:172px;width:148px;height:142px">
+        <p class="t-value">12<span class="t-of">/15</span></p>
+        <p class="t-small">Immunosuppressive-free response at Day&nbsp;15</p>
+      </div>
+      <div class="tile deep" style="left:152px;top:172px;width:148px;height:142px">
+        <p class="t-value">5<span class="t-of">/15</span></p>
+        <p class="t-small">Complete clinical remission at Day&nbsp;15</p>
+      </div>
+      <div class="tile dark panel" style="left:0;top:318px;width:300px;height:124px">
+        <h3>Encouraging early data</h3>
+        <p>In gut inflammation caused by cancer immunotherapy (irEC). Open-label, investigator-sponsored study of 15 patients at MSK (Jul 2026); small and uncontrolled. No related serious adverse events.</p>
+      </div>
+    </section>
+
+    <!-- Slide 3: Prevention study -->
+    <section class="slide" data-index="2">
+      <!-- Module: homepage mosaic: the sky "Inside Seres" tile, a photo tile (the Our Platform page's microbiome
+           render) and two blue tiles. Facts: Q3 release (Nov 4, 2026): prevention study, Q1 2027, ~300,000. -->
+      <div class="tile sky" style="left:0;top:0;width:300px;height:134px">
+        <span class="t-label">Next: prevention</span>
+        <h2>Aiming to keep cancer patients on therapy</h2>
+      </div>
+      <div class="tile photo" style="left:0;top:138px;width:300px;height:158px">
+        <img class="d-photo" src="assets/slide-3.jpg" alt="Image from the company's website: a rendered gut lining with microbes">
+      </div>
+      <div class="tile deep" style="left:0;top:300px;width:148px;height:142px">
+        <p class="t-value sm">Q1 2027</p>
+        <p class="t-small">Planned FDA submission of the study design*</p>
+      </div>
+      <div class="tile mid" style="left:152px;top:300px;width:148px;height:142px">
+        <p class="t-value sm">~300K</p>
+        <p class="t-small">U.S. patients on checkpoint inhibitors*</p>
+      </div>
+    </section>
+
+    <!-- Slide 4: Nature Medicine -->
+    <section class="slide" data-index="3">
+      <!-- Module: homepage mosaic: a tall photo tile (the "Inside Seres" banner photo) beside a sky and a deep
+           tile, dark panel below. Facts: Nature Medicine release (Nov 3, 2026): 77%, 10% vs 42.9%, BTD + Fast Track. -->
+      <div class="tile photo" style="left:0;top:0;width:148px;height:238px">
+        <img class="d-photo" src="assets/slide-4.jpg" alt="Illustrative image from the company's website: a scientist examining a sample tube">
+        <span class="t-cap">Illustrative image</span>
+      </div>
+      <div class="tile sky" style="left:152px;top:0;width:148px;height:117px">
+        <p class="t-value">77%</p>
+        <p class="t-small">Relative risk reduction in bloodstream infections vs placebo</p>
+      </div>
+      <div class="tile deep" style="left:152px;top:121px;width:148px;height:117px">
+        <p class="t-value xs">Breakthrough + Fast Track</p>
+        <p class="t-small">FDA designations, SER-155 in stem cell transplant</p>
+      </div>
+      <div class="tile dark panel" style="left:0;top:242px;width:300px;height:200px">
+        <h2>Phase 1b data in <span class="nw">Nature Medicine</span></h2>
+        <div class="t-rule"></div>
+        <p>Randomized, placebo-controlled cohort: bloodstream infections in 10% vs 42.9% of patients through day 100. Published Nov 3, 2026.</p>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- Persistent chrome — the corporate site's header, never rotates -->
+  <header id="top-bar" class="reveal" data-delay="0">
+    <img id="logo" src="assets/logo.svg" alt="Seres Therapeutics, Inc." width="80" height="28">
+    <span id="ticker">Nasdaq:&nbsp;MCRB</span>
+  </header>
+
+  <!-- Slider controls: round navy buttons, like the homepage slider's pause control -->
+  <button type="button" class="nav-arrow" id="arrow-prev" aria-label="Previous slide">
+    <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M10 3 6 8l4 5" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+  <button type="button" class="nav-arrow" id="arrow-next" aria-label="Next slide">
+    <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M6 3l4 5-4 5" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+
+  <div id="bottom-fixed" class="reveal" data-delay="4">
+    <div id="dots" role="tablist" aria-label="Slide selector">
+      <button class="dot active" data-index="0" aria-label="Slide 1: Overview"></button>
+      <button class="dot" data-index="1" aria-label="Slide 2: irEC data"></button>
+      <button class="dot" data-index="2" aria-label="Slide 3: Prevention study"></button>
+      <button class="dot" data-index="3" aria-label="Slide 4: Nature Medicine"></button>
+    </div>
+
+    <!-- The site has no buttons: the CTA is its "Investors and News" tile, a deep-blue block with the condensed tracked label -->
+    <a href="#" id="cta">
+      <span>Investors and News</span>
+      <svg id="cta-arrow" viewBox="0 0 24 25" aria-hidden="true"><path d="M12 4.18066L10.585 5.59566L16.17 11.1807H4V13.1807H16.17L10.585 18.7657L12 20.1807L20 12.1807L12 4.18066Z"/></svg>
+    </a>
+
+    <!-- The corporate site's footer strip, carrying the required forward-looking-statements line -->
+    <p id="fls"><span>SER-155 is investigational and not FDA-approved; early results may not predict later studies. *Company expectation / estimate (Nov 4, 2026). Forward-looking statements; see SEC filings for risk factors.</span></p>
+  </div>
+
+  <!-- Standard HTML5-ad click-tag plumbing -->
+  <div id="click-tag-wrapper"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
